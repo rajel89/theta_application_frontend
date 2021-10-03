@@ -3,6 +3,12 @@ import { BrowserRouter as AppRouter, Route, Switch, Redirect } from 'react-route
 
 import Login from '../views/Login'
 import Register from '../views/Register'
+import SellerDashboard from '../views/SellerDashboard'
+import ProjectAgreementSeller from '../views/ProjectAgreementSeller'
+import SearchJobsSeller from '../views/SearchJobsSeller'
+import BuyerDashboard from '../views/BuyerDashboard'
+import ProjectAgreementBuyer from '../views/ProjectAgreementBuyer'
+import SearchJobsBuyer from '../views/SearchJobsBuyer'
 
 const Router = () => {
     return (
