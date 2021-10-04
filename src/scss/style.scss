@@ -190,7 +190,12 @@ body {font-family: 'Source Sans Pro', sans-serif;}
     height: auto;
   }
 
-  .btn-primary {background-color: #f51829 !important;}
+  .btn-primary {background-color: #f51829 !important; border-color: #f51829 !important;}
+  .btn-outline-primary { color: #f51829 !important; border-color: #f51829 !important;}
+  .btn-outline-primary:hover{color:#fff !important; background-color:#f51829;border-color:#f51829}
+  .btn-check:focus+.btn-outline-primary,.btn-outline-primary:focus{box-shadow:none;}
+  .btn-check:active+.btn-outline-primary,.btn-check:checked+.btn-outline-primary,.btn-outline-primary.active,.btn-outline-primary.dropdown-toggle.show,.btn-outline-primary:active{color:#fff !important;background-color:#f51829;border-color:#f51829}
+
 
   .card {
     background: #fff;
@@ -425,6 +430,22 @@ body {font-family: 'Source Sans Pro', sans-serif;}
   .text-150 {
     font-size: 150%!important;
   }
-    
   
+  .alert-primary {
+    color: #fff;
+    background-color: #f14c5aef;
+    border-color: #f73848;
+}
+
+pre {
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.content-sender{padding: 10px 10px; color: #fff; background-color: #f14c5aef; border-radius: 10px 0 10px 10px; display: block; width: 80%;}
+.content-receiver{padding: 10px 10px; color: #fff; background-color: #6c757d; border-radius: 0 10px 10px 10px; display: block; width: 80%;}
   
+.search-close-btn{position: relative; right: 9%; top: 7px; z-index: 100;}
